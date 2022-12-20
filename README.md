@@ -26,32 +26,53 @@ $npm run dev
 ###     🕵️‍♀️Features
 
 ---
-Criaçao da Conta Bancária
+**Criaçao da Conta Bancária**
 ```bash
 POST /contas
-esse endpoint cria a conta bancaria
+Esse endpoint cria a conta bancária
 ```
+**Listagem das Contas Cadastradas**
 ```bash
 GET /contas
-esse endpoint Lista as contas bancarias
+Esse endpoint lista as contas bancárias
 ```
+**Atualizaçao cadastral**
 ```bash
 PUT /contas/:numeroConta/usuario
-esse endpoint faz a atualizaçao dos dados solicitados
+Esse endpoint faz a atualizaçao dos dados cadastrados solicitados
 ```
+**Exclusão da Conta**
 ```bash
- 
-DELETE /contas/:numeroConta
-Esse Endpoint Deleta a conta solicitada 
+ DELETE /contas/:numeroConta
+Esse Endpoint Deleta a Conta Solicitada 
 ```
+**Consulta de Saldo**
 ```bash
-GET /contas
-esse endpoint Listas  asocntas bancarias
+GET /contas/saldo
+Esse endpoint mostra o saldo da conta
 ```
+
+**Extrato da Conta**
 ```bash
-GET /contas
-esse endpoint Listas  asocntas bancarias
+GET/contas/extrato
+Esse endpoint traz todos os lançamentos da conta
 ```
+**Depósito na conta bancária**
+```bash
+POST /transacoes/depositos
+Esse endpoint permite fazer depósitos em conta
+```
+**Saque**
+```bash
+POST /transacoes/sacar
+Esse endpoint permite realizar saques na conta
+```
+**Transferir**
+```bash
+POST /transacoes/transferir
+Esse endpoint permite realizar transferências na conta
+```
+
 
 ###   🦾Skills
 
