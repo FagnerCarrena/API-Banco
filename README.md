@@ -43,7 +43,7 @@ Esse endpoint faz a atualizaçao dos dados cadastrados solicitados
 ```
 **Exclusão da Conta**
 ```bash
- DELETE /contas/:numeroConta
+DELETE /contas/:numeroConta
 Esse Endpoint Deleta a Conta Solicitada 
 ```
 **Consulta de Saldo**
