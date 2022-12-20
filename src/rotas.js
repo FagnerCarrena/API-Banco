@@ -8,6 +8,8 @@ rotas.get('/contas', contas.listarContas)
 rotas.post('/contas', contas.criarConta)
 rotas.put('/contas/:numeroConta/usuario', contas.atualizarUsuarioConta)
 rotas.delete('/contas/:numeroConta', contas.excluirConta)
+rotas.get('/contas/saldo', contas.saldo)
+rotas.get('/contas/extrato', contas.extrato)
 
 rotas.post('/transacoes/depositos', transacoes.depositar)
 rotas.post('/transacoes/sacar', transacoes.sacar)
